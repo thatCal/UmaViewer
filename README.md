@@ -42,7 +42,7 @@ Currently only the default work mode is supported - you need to download assets 
 ------------
 
 - For Developers/Contributors
-1. [Unity Hub](https://unity3d.com/get-unity/download) with [Unity Engine Version 2022.3.62f1](https://unity.com/releases/editor/archive) is recommended. It should be possible to run it on newer 2022.3.X versions.
+1. [Unity Hub](https://unity3d.com/get-unity/download) with [Unity Engine Version 2022.3.62f3](https://unity.com/releases/editor/archive) is recommended. It should be possible to run it on newer 2022.3.X versions.
 1. Clone or download and extract this repository.
 1. Import and Open the project in Unity Hub, missing files should be automatically repaired.
 1. Open the Assets/Scenes/Version2 scene.
