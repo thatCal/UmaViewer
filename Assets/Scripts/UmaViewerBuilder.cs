@@ -963,8 +963,17 @@ public class UmaViewerBuilder : MonoBehaviour
                     UmaLyricsData lyricsData = new UmaLyricsData()
                     {
                         time = float.Parse(words[0]) / 1000,
-                        text = (words.Length > 1) ? words[1] : ""
+                        text = ""
                     };
+                    if (words.Length > 1)
+                    {
+                        for (int j = 1; j < words.Length; j++)
+                        {
+                            lyricsData.text += (j > 1) ? "," : "";
+                            lyricsData.text += words[j];
+                        }
+                    }
+                    lyricsData.text = lyricsData.text.Trim().Trim('"');
                     CurrentLyrics.Add(lyricsData);
                 }
                 catch { }
